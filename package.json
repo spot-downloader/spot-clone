@@ -1,0 +1,57 @@
+{
+  "name": "spotify-clone",
+  "version": "1.0.0",
+  "description": "Spotify Clone PWA - Music streaming frontend for Navidrome/Subsonic servers",
+  "private": true,
+  "type": "module",
+  "license": "GPL-3.0-or-later",
+  "author": "spot-downloader",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spot-downloader/spotify-clone.git"
+  },
+  "bugs": {
+    "url": "https://github.com/spot-downloader/spotify-clone/issues"
+  },
+  "homepage": "https://github.com/spot-downloader/spotify-clone#readme",
+  "keywords": [
+    "spotify",
+    "clone",
+    "pwa",
+    "progressive-web-app",
+    "navidrome",
+    "subsonic",
+    "music",
+    "streaming",
+    "vue",
+    "vue3",
+    "vite",
+    "tailwindcss"
+  ],
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "key:generate": "node scripts/generate-key.js"
+  },
+  "dependencies": {
+    "axios": "^1.11.0",
+    "fast-xml-parser": "^5.2.5",
+    "md5": "^2.3.0",
+    "vite-plugin-vue-devtools": "^8.0.1",
+    "vue": "^3.5.18",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@types/xml2js": "^0.4.14",
+    "@vitejs/plugin-vue": "^6.0.1",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.1.12",
+    "vite": "^7.0.6",
+    "vite-plugin-pwa": "^1.0.3"
+  }
+}
